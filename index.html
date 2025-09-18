@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio MN - Seu Salão de Beleza</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet" />
+  <!-- Estilos -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <!-- Scripts -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootstrap JS (completa) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--descricao-->
+  <meta name="description"
+    content="Conheça nosso salão de beleza, onde combinamos talento, técnica e paixão para oferecer cortes de cabelo, unhas, tratamentos de pele e serviços de beleza excepcionais. Visite-nos e desfrute de uma experiência de beleza completa e relaxante." />
+  <!--Keyword-->
+  <meta name="keyword"
+    content="Salão de Beleza, StudioMN, Studio MN, Cortes Femininos, Unhas, Coloração, Manicure, Padicure" />
+  <!--icone-->
+  <link rel="icon" href="img/logo sem nada.png" type="image/png" />
+</head>
+
+<body>
+  <!--header-->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="img/logo sem nada.png" alt="Logo Studio MN" width="30" height="30" class="me-2" />
+          <span class="fw-bold text-dark">Studio <span class="text-warning">MN</span></span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="home-menu" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="about-menu" href="#">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="especialidades-menu" href="#">Especialidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="services-menu" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-menu" href="#">Contato</a>
+            </li>
+          </ul>
+
+          <a href="https://api.whatsapp.com/send?phone=5511919158014&text=Quero%20agendar%20meu%20hor%C3%A1rio!"
+            class="btn btn-dark ms-lg-3 esconder" target="_blank"><i class="fab fa-whatsapp"
+              id="botaoPrincipal"></i>Agendar
+            Horário</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--home-->
+  <div id="home" class="hero text-center text-lg-start">
+    <div class="container d-lg-flex align-items-center">
+      <div class="hero-text me-lg-5">
+        <h1 class="display-5 fw-bold">
+          SEUS CABELOS PRECISAM <br />DOS CUIDADOS CERTOS
+        </h1>
+        <div class="fdp">
+          <p class="lead">
+            Oferecemos serviços de <span class="highlight">corte</span>,
+            <span class="highlight">coloração</span>,
+            <span class="highlight">manicure</span> e
+            <span class="highlight">pedicure</span> com profissionais
+            qualificados.
+          </p>
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=5511919158014&text=Quero%20agendar%20meu%20hor%C3%A1rio!"
+          class="btn btn-dark" target="_blank"><i class="fab fa-whatsapp" id="botaoPrincipal"></i>Agendar
+          Horário</a>
+      </div>
+      <div class="hero-image">
+        <img src="img/banner.png" alt="Modelo de Cabelo" class="img-fluid" />
+      </div>
+    </div>
+  </div>
+  <!--sobre nos-->
+  <div id="about-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-title">Conheça o<strong> Studio MN</strong></h3>
+        </div>
+
+        <!-- Carrossel de Imagens -->
+        <div class="col-md-6 tablet">
+          <div id="studioCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500"
+            data-bs-pause="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/sobre a empresa.jpeg" class="d-block w-100" alt="Entrada do Salão">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Salao2.jpeg" class="d-block w-100" alt="Dentro do StudioMN">
+              </div>
+              <div class="carousel-item">
+                <img src="img/fundomobile.jpeg" class="d-block w-100" alt="Dentro do StudioMN">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 tablet">
+          <h3 class="about-title timobile">Um salão que cuida do seu bem-estar</h3>
+          <p>
+            Nossos serviços são pensados para atender às necessidades e
+            desejos de cada cliente.
+          </p>
+          <p>
+            Após uma análise do seu perfil, nossos especialistas recomendam
+            os melhores produtos e técnicas para realçar sua beleza.
+          </p>
+          <p>
+            E nossa equipe de designers de unhas e cabelos trabalha para que
+            cada detalhe reflita seu estilo.
+          </p>
+          <p></p>
+          <p>Veja outros diferenciais:</p>
+          <ul id="about-list">
+            <li>
+              <i class="fas fa-check"></i> Utilização de produtos de alta
+              qualidade
+            </li>
+            <li><i class="fas fa-check"></i> Ambiente Confortável</li>
+            <li><i class="fas fa-check"></i> Atendimento personalizado</li>
+            <li>
+              <i class="fas fa-check"></i> Serviços exclusivos de estética e
+              bem-estar
+            </li>
+            <li><i class="fas fa-check"></i> Profissionais capacitados</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--especialidades-->
+  <div id="services-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-title text-center">Nossas Especialidades</h3>
+        </div>
+        <div class="col-md-6 service-box text-center mb-4">
+          <i class="fas fa-cut fa-3x" aria-hidden="true"></i>
+          <h4>Corte de Cabelo</h4>
+          <p>
+            Oferecemos cortes de cabelo personalizados para todos os estilos, atendendo com excelência tanto o público
+            feminino quanto o masculino.
+          </p>
+        </div>
+        <div class="col-md-6 service-box text-center mb-4">
+          <i class="fas fa-paint-brush fa-3x" aria-hidden="true"></i>
+          <h4>Coloração</h4>
+          <p>
+            Transforme seu visual com nossas opções de coloração de alta
+            qualidade.
+          </p>
+        </div>
+        <div class="col-md-6 service-box text-center mb-4">
+          <i class="fas fa-hand-paper fa-3x" aria-hidden="true"></i>
+          <h4>Manicure</h4>
+          <p>
+            Cuide das suas unhas com nossos serviços de manicure
+            profissionais.
+          </p>
+        </div>
+        <div class="col-md-6 service-box text-center mb-4">
+          <i class="fas fa-shoe-prints fa-3x" aria-hidden="true"></i>
+          <h4>Pedicure</h4>
+          <p>Relaxe e aproveite um tratamento completo para seus pés.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--case de sucesso-->
+  <div id="portfolio-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="main-title">Conheça o nosso Trabalho</h3>
+        </div>
+        <div class="col-md-12" id="filter-btn-box">
+          <button class="main-btn filter-btn active" id="cortes-btn">
+            Cortes Femininos
+          </button>
+          <button class="main-btn filter-btn" id="unhas-btn">Unhas</button>
+          <button class="main-btn filter-btn" id="corte-masculino-btn">Cortes Masculino</button>
+
+        </div>
+
+        <!-- Galeria de Imagens -->
+        <div class="col-md-4 project-box cortes text-center">
+          <img src="img/cabelo1ponto1.jpg" class="img-fluid gallery-img" alt="cabelo1" data-group="cortes1" />
+        </div>
+        <div class="col-md-4 project-box cortes text-center">
+          <img src="img/cabelo2ponto1.jpg" class="img-fluid gallery-img" alt="cabelo2" data-group="cortes2" />
+        </div>
+        <div class="col-md-4 project-box cortes text-center">
+          <img src="img/cabelo3ponto1.jpg" class="img-fluid gallery-img" alt="cabelo3" data-group="cortes3" />
+        </div>
+        <div class="col-md-4 project-box unhas text-center">
+          <img src="img/unha1.jpg" class="img-fluid gallery-img" alt="unha1" data-group="unha1" />
+        </div>
+        <div class="col-md-4 project-box unhas text-center">
+          <img src="img/unha2.jpg" class="img-fluid gallery-img" alt="unha2" data-group="unha2" />
+        </div>
+        <div class="col-md-4 project-box unhas text-center">
+          <img src="img/unha3.jpg" class="img-fluid gallery-img" alt="unha3" data-group="unha3" />
+        </div>
+        <div class="col-md-4 project-box corte-masculino text-center">
+          <img src="img/cabelo4ponto1.jpg" class="img-fluid gallery-img" alt="cabelo4" data-group="cortes4" />
+        </div>
+        <div class="col-md-4 project-box corte-masculino text-center">
+          <img src="img/cabelo5ponto1.jpg" class="img-fluid gallery-img" alt="cabelo5" data-group="cortes5" />
+        </div>
+        <div class="col-md-4 project-box corte-masculino text-center">
+          <img src="img/cabelo6ponto1.jpg" class="img-fluid gallery-img" alt="cabelo6" data-group="cortes6" />
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Imagem -->
+  <div class="modal fade image-modal" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true"
+    data-bs-touch="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imageModalLabel">1/3</h5>
+
+          <!-- Botões de controle (Fullscreen, Zoom, Fechar) -->
+          <div class="d-flex justify-content-end">
+            <button class="fullscreen-btn toolbar-button" onclick="toggleFullscreen()">
+              <i class="fa fa-expand"></i>
+            </button>
+            <button class="btn btn-secondary toolbar-button zoom-btn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary toolbar-button" data-bs-dismiss="modal" aria-label="Close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <div id="modalCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner" id="carouselInner">
+              <!-- As imagens tao no js -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel" data-bs-slide="prev"
+              aria-label="Previous">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel" data-bs-slide="next"
+              aria-label="Next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--call area-->
+  <div id="call-area">
+    <div class="container">
+      <div class="row text-center">
+        <p>Quer agendar sua sessão de beleza?</p>
+        <a href="https://api.whatsapp.com/send?phone=5511919158014&text=Quero%20agendar%20meu%20hor%C3%A1rio!"
+          class="main-btn" id="call-btn" target="_blank">Agendar</a>
+      </div>
+    </div>
+  </div>
+  <!--contatos-->
+  <div id="contact-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="main-title">Entre em contato conosco</h3>
+        </div>
+        <div class="col-md-6 contact-box contact-box-border">
+          <a href="https://api.whatsapp.com/send?phone=5511919158014&text=Quero%20agendar%20meu%20hor%C3%A1rio!"
+            target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <p>
+              <span class="contact-tile">Entre em Contato:</span> (11)
+              91915-8014
+            </p>
+          </a>
+        </div>
+        <div class="col-md-6 contact-box contact-box-border">
+          <a href="https://www.instagram.com/studiomn24/" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <p><span class="contact-tile">Siga-nos:</span> @studiomn24</p>
+          </a>
+        </div>
+
+        <div class="col-md-6 contact-box contact-box-mobile">
+          <a href="https://www.google.com/maps/dir//R.+Belchior+F%C3%A9lix,+82+-+Jardim+Sao+Luiz,+S%C3%A3o+Paulo+-+SP,+04914-120/@-23.6753361,-46.7481775,19.5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce522780e6637f:0xa7ddaa2f82f87692!2m2!1d-46.7479728!2d-23.6754617?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>
+              <span class="contact-tile">Venha nos conhecer:</span> Rua
+              Belchior Félix - 82
+            </p>
+          </a>
+        </div>
+        <div class="col-md-6 contact-box">
+          <a href="https://g.co/kgs/v5tBxg9" target="_blank">
+            <i class="fas fa-clock"></i>
+            <p class="mlk">
+              <span class="contact-tile">Terça a Domingo:</span> 08:00 - 18:00
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer>
+    <div id="final" class="container">
+      <div class="row">
+        <div class="col-md-6 footer-column">
+          <h5 class="footer-heading">Direitos Reservados</h5>
+          <p class="footer-text finals">
+            © 2024 Studio MN. Todos os direitos reservados. A reprodução,
+            distribuição ou modificação de qualquer parte deste site sem a
+            permissão expressa do Studio MN é estritamente proibida.
+          </p>
+          <div class="footer-icons">
+            <a href="https://api.whatsapp.com/send?phone=5511919158014&text=Quero%20agendar%20meu%20hor%C3%A1rio!"
+              target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/studiomn24/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.google.com/maps/dir//R.+Belchior+F%C3%A9lix,+82+-+Jardim+Sao+Luiz,+S%C3%A3o+Paulo+-+SP,+04914-120/@-23.6753361,-46.7481775,19.5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce522780e6637f:0xa7ddaa2f82f87692!2m2!1d-46.7479728!2d-23.6754617?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">
+              <i class="fas fa-map-marker-alt"></i></a>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 footer-column">
+          <h5 class="footer-heading">Entre em contato conosco</h5>
+          <p class="footer-text contac mobile">
+            Estamos preparados para superar suas expectativas.
+          </p>
+          <div class="contact-buttons">
+            <a href="https://api.whatsapp.com/send?phone=5511919158014&text=Quero%20agendar%20meu%20hor%C3%A1rio!"
+              target="_blank" class="contact-button">
+              <i class="fab fa-whatsapp"></i> (11) 91915-8014
+            </a>
+            <a href="https://www.instagram.com/studiomn24/" target="_blank" class="contact-button">
+              <i class="fab fa-instagram"></i>@studiomn24
+            </a>
+
+            <a href="https://www.google.com/maps/dir//R.+Belchior+F%C3%A9lix,+82+-+Jardim+Sao+Luiz,+S%C3%A3o+Paulo+-+SP,+04914-120/@-23.6753361,-46.7481775,19.5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce522780e6637f:0xa7ddaa2f82f87692!2m2!1d-46.7479728!2d-23.6754617?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank" class="contact-button">
+              <i class="fas fa-map-marker-alt"></i> Rua Belchior Félix - 82
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-note b">
+          <div class="col text-center">
+            <p class="footer-note">
+              Esse site foi criado e desenvolvido pelo
+              <strong>Studio MN</strong> &copy; 2025
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-VoPFbGxdzICf6u5E1eqvmNh2w2qxCnHTDTCFE6nIDcCkFf5t8uEmY5u1KN7U9X91"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
